@@ -57,7 +57,6 @@ namespace SalesWebMvc
             {
                 app.UseExceptionHandler("/Home/Error");
                 app.UseHsts();
-                seedingService.Seed();
             }
 
             app.UseHttpsRedirection();
